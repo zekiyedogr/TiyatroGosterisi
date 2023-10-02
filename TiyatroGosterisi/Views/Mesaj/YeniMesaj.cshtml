@@ -1,0 +1,58 @@
+﻿@model TiyatroGosterisi.Models.Entity.Mesajlar
+@{
+    ViewBag.Title = "YeniMesaj";
+    Layout = "~/Views/Shared/LayoutPanel.cshtml";
+}
+
+    <style>
+        .alan {
+            height: 100%;
+            width: 60%;
+            margin-left: 5%;
+        }
+
+        label {
+            color: #2c3e50;
+            margin-right: 20px;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        #btn, .btn {
+            background-color: #1abc9c;
+            border-color: #2c3e50;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+            #btn:hover, .btn:hover {
+                background-color: #2c3e50;
+                color: #ffffff;
+                text-decoration: none;
+            }
+    </style>
+
+<form class="form-group" method="post">
+    <div class="alan">
+        <h2 style="color:#2c3e50">YeniMesaj</h2>
+        <label>Alıcı Mail</label> <br />
+        @Html.TextBoxFor(x => x.Alici, new { @class = "form.control", @style="border: 1px solid #1abc9c"}) <br />
+        <label>İçerik</label> <br />
+        @Html.TextAreaFor(x => x.Icerik, new { @class = "form.control", @style="border: 1px solid #1abc9c" }) <br />
+
+        <div style="margin-top:15px">
+            <button class="btn" id="btn">Gönder</button>
+            <a href="/Mesaj/Index/" class="btn">Vazgeç</a>
+        </div>
+    </div>
+
+
+    
+</form>

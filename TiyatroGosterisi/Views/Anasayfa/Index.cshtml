@@ -1,0 +1,175 @@
+﻿@using TiyatroGosterisi.Models.Entity
+@model Iletisim
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<header class="masthead resim">
+    <div class="container d-flex align-items-center flex-column" style="color: #212529">
+        <img class="masthead-avatar mb-5" src="~/Web/img/maske.png" alt="">
+        <h1 class="masthead-heading text-uppercase mb-0" style="text-align: center">TİYATROLARA HOŞGELDİNİZ</h1>
+        <div class="divider-custom divider-light" style="color: #212529">
+            <div class="divider-custom-line" style="border-color: #212529"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+    </div>
+</header>
+
+<section class="page-section portfolio" id="portfolio">
+    <div class="container">
+
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" style="color:#212529">OYUNLAR</h2>
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-4">
+                <a href="../Oyun/OyunGetir/2">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Web/img/alicee.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <a href="../Oyun/OyunGetir/4006">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Web/img/tanrinineli.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <a href="../Oyun/OyunGetir/4007">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Web/img/ubu.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" style="margin-top:50px">OYUNCULAR</h2>
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-4">
+                <a href="../Oyuncu/OyuncuGetir/16">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Web/img/demet.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <a href="../Oyuncu/OyuncuGetir/1">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Web/img/ozan.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <a href="../Oyuncu/OyuncuGetir/4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="~/Web/img/okan.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="page-section" id="contact" style="margin-top: 100px">
+    <div class="container">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Bana Ulaşın</h2>
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Ad</label>
+                                <input class="form-control" id="name" name="IletisimAdi" type="text" placeholder="Ad" required="required" data-validation-required-message="Lütfen isminizi yazınız." style="color: #1abc9c">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>E-mail Adresi</label>
+                                <input class="form-control" id="email" name="IletisiEmail" type="email" placeholder="E-mail Adresi" required="required" data-validation-required-message="Lütfen mail adresinizi yazınız.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                <label>Mesaj</label>
+                                <textarea class="form-control" id="message" name="IletisiMesaj" rows="5" placeholder="Mesaj" required="required" data-validation-required-message="Lütfen mesajınızı yazınız."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton" style="color: #ffffff">Kaydet</button>
+                        </div>
+                    </form>
+            </div>
+        </div>
+
+    </div>
+</section>

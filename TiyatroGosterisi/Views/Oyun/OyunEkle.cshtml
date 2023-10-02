@@ -1,0 +1,63 @@
+﻿@model TiyatroGosterisi.Models.Entity.Oyun
+@{
+    ViewBag.Title = "OyunEkle";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<style>
+    .alan {
+        height: 100%;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    label {
+        color: #2c3e50;
+        margin-right: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #btn, .btn {
+        background-color: #1abc9c;
+        border-color: #2c3e50;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    #btn:hover, .btn:hover {
+        background-color: #2c3e50;
+        color: #ffffff;
+        text-decoration: none;
+    }       
+
+    option
+    {
+        background-color: #2c3e50;
+        color: #ffffff;
+    }
+</style>
+
+<form class="form-group" method="post">
+    <div class="alan">
+        <label>Oyun Adı</label>
+        <input type="text" class="form-control" name="OyunAdi" style="border: 2px solid #2c3e50" />
+        <label>Yonetmen Adı</label>
+        @Html.DropDownListFor(oyun => oyun.Yonetmen.YonetmenId, (List<SelectListItem>)ViewBag.dgr2, new { @class = "form-control", style = "border: 2px solid #2c3e50" })
+        <label>Yazar Adı</label>
+        @Html.DropDownListFor(oyun => oyun.Yazar.YazarId, (List<SelectListItem>)ViewBag.dgr3, new { @class = "form-control", style = "border: 2px solid #2c3e50" })
+        <label>Tür Adı</label>
+        @Html.DropDownListFor(oyun => oyun.Tur.TurId, (List<SelectListItem>)ViewBag.dgr1, new { @class = "form-control", style = "border: 2px solid #2c3e50" })
+        <div style="margin-top:15px">
+            <button class="btn" id="btn">Oyun Ekle</button>
+            <a href="/Oyun/Index/" class="btn">Listeye Dön</a>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,91 @@
+﻿@using TiyatroGosterisi.Models.Entity
+@model List<Yonetmen>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 50px;
+        color: #2c3e50;
+        
+    }
+
+    .table-bordered th, .table-bordered td {
+        border: .125rem solid #2c3e50;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #2c3e50;
+        color: #ffffff;
+    }
+
+    .btn0 {
+        color: #ca0f0f;
+        text-decoration: none;
+        padding: 7px;
+    }
+
+    .btn0:hover {
+        text-decoration: none;
+        color: #ca0f0f;
+    }
+
+    .btn1 {
+        color: #358f40;
+        text-decoration: none;
+        padding: 4px;
+    }
+
+        .btn1:hover, btn:hover {
+            text-decoration: none;
+        }
+
+    .btn2 {
+        background-color: #1abc9c;
+        border-color: #2c3e50;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+        .btn2:hover {
+            background-color: #2c3e50;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+</style>
+
+<h2 style="text-align: center; margin-bottom: 20px; margin-top: 50px">YÖNETMENLER</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Yönetmen Adı</th>
+        <th>Ödül Sayısı</th>
+        <th>Eser Sayısı</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+
+    @foreach (var yzr in Model)
+    {
+        <tr>
+            <td>@yzr.YonetmenAdi</td>
+            <td>@yzr.YonetmenOdulSay</td>
+            <td>@yzr.YonetmenEserSay</td>
+            <td>@Html.ActionLink("Sil", "YonetmenSil", new { id = yzr.YonetmenId }, new { @class = "btn0", onclick = "return confirm('Silmek istiyor musunuz?')" })</td>
+            <td><a href="/Yonetmen/YonetmenGetir/@yzr.YonetmenId" class="btn1">Güncelle</a></td>
+        </tr>
+    }
+</table>
+<a href="/Yonetmen/YonetmenEkle/" class="btn2">Yeni Bir Yönetmen Ekle</a>

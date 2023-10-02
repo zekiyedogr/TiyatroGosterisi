@@ -1,0 +1,64 @@
+﻿@model TiyatroGosterisi.Models.Entity.Uye
+@{
+    ViewBag.Title = "UyeGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<style>
+    #btn, .btn {
+        background-color: #1abc9c;
+        border-color: #2c3e50;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+        #btn:hover, .btn:hover {
+            background-color: #2c3e50;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+    label {
+        color: #2c3e50;
+        margin-right: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .foto {
+        height: 270px;
+        width: 30%;
+        float: left;
+        display: inline-block;
+        margin-right: 40px;
+        margin-top: 30px;
+        background-color: grey;
+    }
+</style>
+
+@using (Html.BeginForm("UyeGuncelle", "Uye", FormMethod.Post))
+{
+    <div class="foto"></div>
+    <div class="kutu" style="width: 50%; display: inline-block;">
+        <div class="form-group">
+            <label>Üye Adı</label>
+            <div style="border: 2px solid #2c3e50; border-radius: 5px">@Html.TextBoxFor(uye => uye.UyeId, new { @class = "form-control" })</div>
+
+            <label>Mail</label>
+            <div style="border: 2px solid #2c3e50; border-radius: 5px">@Html.TextBoxFor(uye => uye.UyeAdi, new { @class = "form-control" })</div>
+
+            <label>Şifre</label>
+            <div style="border: 2px solid #2c3e50; border-radius: 5px">@Html.TextBoxFor(uye => uye.UyeParola, new { @class = "form-control" })</div>
+            <br />
+            <button class="btn" id="btn">Güncelle</button>
+            <a href="/Uye/Index/" class="btn">Listeye Dön</a>
+        </div>
+        </div>
+}

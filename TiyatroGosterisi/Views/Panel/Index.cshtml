@@ -1,0 +1,93 @@
+﻿@model TiyatroGosterisi.Models.Entity.Uye
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/LayoutPanel.cshtml";
+}
+
+<style>
+        #btn, .btn {
+            background-color: #1abc9c;
+            border-color: #2c3e50;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        #btn:hover, .btn:hover {
+            background-color: #2c3e50;
+            color: #ffffff;
+            text-decoration: none;
+        }
+</style>
+
+<h2 style="color: #2c3e50">BİLGİLERİM</h2>
+<br />
+
+@using (Html.BeginForm("Index", "Panel", FormMethod.Post))
+ {
+<table class="table table-bordered">
+    <tr>
+        <td>
+            <label style="font-weight:bold">Adı: </label>
+        </td>
+        <td>
+            @Html.TextBoxFor(x => x.UyeAdi, new { @class = "form-control-plaintext" })
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label style="font-weight:bold">Kullanıcı Adı: </label>
+        </td>
+        <td>
+            @Html.TextBoxFor(x => x.KullaniciAdi, new { @class = "form-control-plaintext", @style = "color:#ffffff" })
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label style="font-weight:bold">Mail Adresi: </label>
+        </td>
+        <td>
+            @HttpContext.Current.User.Identity.Name
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label style="font-weight:bold">Şifre: </label>
+        </td>
+        <td>
+            @Html.TextBoxFor(x => x.UyeParola, new { @class = "form-control-plaintext", @style = "color:#ffffff" })
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label style="font-weight:bold">Doğum Günü: </label>
+        </td>
+        <td>
+            @Html.TextBoxFor(x => x.DgmGunu, new { @class = "form-control-plaintext" })
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label style="font-weight:bold">Telefon Numarası: </label>
+        </td>
+        <td>
+            @Html.TextBoxFor(x => x.UyeTel, new { @class = "form-control-plaintext", @style = "color:#ffffff" })
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label style="font-weight:bold">Cinsiyet: </label>
+        </td>
+        <td>
+            @Html.TextBoxFor(x => x.Cinsiyet, new { @class = "form-control-plaintext" })
+        </td>
+    </tr>
+</table>
+
+<button class="btn" id="btn">Güncelle</button>
+ }

@@ -1,0 +1,59 @@
+﻿@model TiyatroGosterisi.Models.Entity.Oyuncu
+@{
+    ViewBag.Title = "OyuncuGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<style>
+    #btn, .btn {
+        background-color: #1abc9c;
+        border-color: #2c3e50;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+        #btn:hover, .btn:hover {
+            background-color: #2c3e50;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+    label {
+        color: #2c3e50;
+        margin-right: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    option {
+        background-color: #2c3e50;
+        color: #ffffff;
+    }
+</style>
+
+@using (Html.BeginForm("OyuncuGuncelle", "Oyuncu", FormMethod.Post))
+{
+<div class="form-group">
+    <label>Oyuncu Id</label>
+    <div style="border: 2px solid #2c3e50; border-radius: 10px">@Html.TextBoxFor(t => t.OyuncuId, new { @class = "form-control" })</div>
+    <br />
+    <label>Oyuncu Adı</label>
+    <div style="border: 2px solid #2c3e50; border-radius: 5px">@Html.TextBoxFor(t => t.OyuncuAdi, new { @class = "form-control" })</div>
+    <br />
+    <label>Oyuncu Adı</label>
+    @Html.DropDownListFor(oyuncu => oyuncu.Oyun.OyunId, (List<SelectListItem>)ViewBag.dgr1, new { @class = "form-control", style = "border: 2px solid #2c3e50" })
+    <br />
+    <label>Rol</label>
+    <div style="border: 2px solid #2c3e50; border-radius: 10px">@Html.TextBoxFor(t => t.Rol, new { @class = "form-control" })</div>
+    <br />
+    <button class="btn" id="btn">Güncelle</button>
+    <a href="/Oyuncu/Index/" class="btn">Listeye Dön</a>
+</div>
+}

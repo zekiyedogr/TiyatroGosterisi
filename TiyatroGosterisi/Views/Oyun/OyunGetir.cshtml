@@ -1,0 +1,63 @@
+﻿@model TiyatroGosterisi.Models.Entity.Oyun
+@{
+    ViewBag.Title = "OyunGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<style>
+    #btn, .btn {
+        background-color: #1abc9c;
+        border-color: #2c3e50;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    #btn:hover, .btn:hover {
+        background-color: #2c3e50;
+        color: #ffffff;
+        text-decoration: none;
+    }       
+
+    label {
+        color: #2c3e50;
+        margin-right: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    option
+    {
+        background-color: #2c3e50;
+        color: #ffffff;
+    }
+</style>
+
+@using (Html.BeginForm("OyunGuncelle", "Oyun", FormMethod.Post))
+{
+<div class="form-group">
+        <label>Oyun Id</label>
+        <div style="border: 2px solid #2c3e50; border-radius: 10px">@Html.TextBoxFor(t => t.OyunId, new { @class = "form-control" })</div>
+
+        <label>Oyun Adı</label>
+        <div style="border: 2px solid #2c3e50; border-radius: 10px">@Html.TextBoxFor(t => t.OyunAdi, new { @class = "form-control" })</div>
+
+        <label>Yönetmen Adı</label>
+        @Html.DropDownListFor(oyun => oyun.Yonetmen.YonetmenId, (List<SelectListItem>)ViewBag.dgr2, new { @class = "form-control", style = "border: 2px solid #2c3e50" })
+
+        <label>Yazar Adı</label>
+        @Html.DropDownListFor(oyun => oyun.Yazar.YazarId, (List<SelectListItem>)ViewBag.dgr3, new { @class = "form-control", style = "border: 2px solid #2c3e50" })
+
+        <label>Tür Adı</label>
+        @Html.DropDownListFor(oyun => oyun.Tur.TurId, (List<SelectListItem>)ViewBag.dgr1, new { @class = "form-control", style = "border: 2px solid #2c3e50" })
+        <br />
+        <button class="btn" id="btn">Güncelle</button>
+        <a href="/Oyun/Index/" class="btn">Listeye Dön</a>
+</div>
+}

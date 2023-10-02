@@ -1,0 +1,48 @@
+﻿@model TiyatroGosterisi.Models.Entity.Tur
+@{
+    ViewBag.Title = "TurGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<style>
+    #btn, .btn {
+        background-color: #1abc9c;
+        border-color: #2c3e50;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    #btn:hover, .btn:hover {
+        background-color: #2c3e50;
+        color: #ffffff;
+        text-decoration: none;
+    }       
+
+    label {
+        color: #2c3e50;
+        margin-right: 20px;
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+</style>
+
+@using (Html.BeginForm("TurGuncelle","Tur", FormMethod.Post))
+{
+<div class="form-group">
+    <label>Tür Id</label>
+    <div style="border: 2px solid #2c3e50; border-radius: 5px">@Html.TextBoxFor(t => t.TurId, new { @class = "form-control" })</div>
+
+    <label>Tür Adı</label>
+    <div style="border: 2px solid #2c3e50; border-radius: 5px">@Html.TextBoxFor(t => t.TurAdi, new { @class = "form-control" })</div>
+    <br />
+    <button class="btn" id="btn">Güncelle</button>
+    <a href="/Oyun/Index/" class="btn">Listeye Dön</a>
+</div>
+}

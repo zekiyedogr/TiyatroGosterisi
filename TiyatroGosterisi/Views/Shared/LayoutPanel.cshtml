@@ -1,0 +1,130 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Tiyatro | Profil</title>
+    <link href="~/Uye/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Uye/css/simple-sidebar.css" rel="stylesheet">
+
+    <style>
+        #sidebar-wrapper .sidebar-heading
+        {
+            padding: 0.875rem 1.25rem;
+            font-size: 1.2rem;
+            background-color: #2c3e50;
+            color: #ffffff;
+            font-family: arial, sans-serif;
+        }        
+
+        .list-group-item-action
+        {
+            width: 100%;
+            color: #2c3e50;
+            text-align: inherit;
+        }
+
+        .list-group-item {
+            position: relative;
+            display: block;
+            padding: .75rem 1.25rem;
+            margin-bottom: -1px;
+            background-color: #fff;
+            border: 1px solid rgba(0,0,0,.125);
+        }       
+
+        
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 50px;
+            color: #2c3e50;
+        }
+
+        .table-bordered th, .table-bordered td {
+            border: .125rem solid #2c3e50;
+            text-align: left;
+            padding-left: 50px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #2c3e50;
+            color: #ffffff;
+        }
+
+        
+        #btn, .btn {
+            background-color: #1abc9c;
+            border-color: #2c3e50;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        #btn:hover, .btn:hover {
+            background-color: #2c3e50;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="d-flex" id="wrapper">
+        <div class="bg-light border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading"><a class="navbar-brand js-scroll-trigger" href="/Anasayfa/Index" style="color:#ffffff; font-weight: 700; margin-left:40px">TİYATRO</a></div>
+            <div class="list-group list-group-flush">
+                <a href="/Panel/Index" class="list-group-item list-group-item-action bg-light">Profilim</a>
+                <a href="/Mesaj/Index" class="list-group-item list-group-item-action bg-light">Gelen Mesajlar</a>
+                <a href="/Mesaj/Giden" class="list-group-item list-group-item-action bg-light">Giden Mesajlar</a>
+                <a href="/Mesaj/YeniMesaj" class="list-group-item list-group-item-action bg-light">Yeni Mesaj</a>
+            </div>
+        </div>
+        <div id="page-content-wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <button class="btn" id="menu-toggle">Menü</button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Anasayfa/Index/#contact">Yardım <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Panel/LogOut">Çıkış Yap <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container-fluid" style="padding: 50px">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <script src="~/Uye/vendor/jquery/jquery.min.js"></script>
+    <script src="~/Uye/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</body>
+</html>

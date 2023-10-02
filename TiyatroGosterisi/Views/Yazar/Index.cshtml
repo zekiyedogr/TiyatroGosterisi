@@ -1,0 +1,113 @@
+﻿@model List<TiyatroGosterisi.Models.Entity.Yazar>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+    var grid = new WebGrid(source: Model, canPage: true, rowsPerPage: 10);
+    grid.Pager(WebGridPagerModes.All);
+}
+
+<style>
+
+    .btn0 {
+        color: #ca0f0f;
+        text-decoration: none;
+        padding: 7px;
+    }
+
+        .btn0:hover {
+            text-decoration: none;
+            color: #ca0f0f;
+        }
+
+    .btn1 {
+        color: #358f40;
+        text-decoration: none;
+        padding: 7px;
+    }
+
+        .btn1:hover, btn:hover {
+            text-decoration: none;
+        }
+
+    .btn2 {
+        background-color: #1abc9c;
+        border-color: #2c3e50;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+        .btn2:hover {
+            background-color: #2c3e50;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+    .webgrid-table {
+        font-family: arial, sans-serif;
+        font-size: 1.2em;
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid #1abc9c;
+        color: #2c3e50;
+    }
+
+        .webgrid-table td, .webgrid-table th {
+            border: 2px solid #1abc9c;
+            font-family: arial, sans-serif;
+            font-size: 0.7em;
+            padding: 8px;
+        }
+
+
+    .webgrid-header, .webgrid-header a {
+        background-color: #1abc9c;
+        color: #ffffff;
+        font-size: 1.2em;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        text-align: left;
+    }
+
+        .webgrid-header a:hover {
+            color: #2c3e50;
+            text-decoration: none;
+        }
+
+    .webgrid-footer a {
+        font-family: arial, sans-serif;
+        font-size: 1.0em;
+        padding: 8px;
+    }
+
+    .webgrid-row-style {
+        padding: 3px 7px 2px;
+    }
+
+    .webgrid-alternating-row, .webgrid-alternating-row a {
+        color: #ffffff;
+        background-color: #2c3e50;
+        padding: 3px 7px 2px;
+    }
+</style>
+
+
+<h2 style="color: #2c3e50; text-align: center; margin-bottom: 20px; margin-top: 50px">YAZARLAR</h2>
+
+<div id="content">
+    @grid.GetHtml(tableStyle: "webgrid-table", headerStyle: "webgrid-header", footerStyle: "webgrid-footer", alternatingRowStyle: "webgrid-alternating-row", rowStyle: "webgrid-row-style",
+    columns: grid.Columns(
+        grid.Column(columnName: "YazarAdi", header: "Yazar Adı"),
+        grid.Column(columnName: "YazarOdulSay", header: "Ödül Sayısı"),
+        grid.Column(columnName: "YazarEserSay", header: "Eser Sayısı")
+        )
+    )
+</div>
+<br />
+
+<a href="/Yazar/YazarEkle/" class="btn2">Yeni Bir Yazar Ekle</a>

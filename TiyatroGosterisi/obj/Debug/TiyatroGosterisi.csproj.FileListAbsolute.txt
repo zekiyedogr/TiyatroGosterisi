@@ -1,0 +1,182 @@
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\TiyatroGosterisi.dll.config
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\TiyatroGosterisi.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\TiyatroGosterisi.pdb
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csc.exe
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csc.exe.config
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csc.rsp
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csi.exe
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csi.exe.config
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csi.rsp
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.AppContext.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Console.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.IO.Compression.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.IO.Pipes.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Claims.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.ValueTuple.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Xml.XPath.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\vbc.exe
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\vbc.exe.config
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\vbc.rsp
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\VBCSCompiler.exe
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\Antlr3.Runtime.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\EntityFramework.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\EntityFramework.SqlServer.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\Newtonsoft.Json.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Helpers.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Mvc.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Optimization.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Razor.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.Razor.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\WebGrease.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\EntityFramework.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\EntityFramework.SqlServer.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Helpers.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Mvc.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Optimization.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Razor.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.Razor.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\Newtonsoft.Json.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\Antlr3.Runtime.pdb
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.Optimization.resources.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.Razor.resources.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.WebPages.resources.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.WebPages.Deployment.resources.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.WebPages.Razor.resources.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\obj\Debug\TiyatroGosterisi.csprojAssemblyReference.cache
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\obj\Debug\TiyatroGosterisi.csproj.CoreCompileInputs.cache
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\obj\Debug\TiyatroGosterisi.csproj.CopyComplete
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\obj\Debug\TiyatroGosterisi.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\obj\Debug\TiyatroGosterisi.pdb
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\PagedList.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\PagedList.Mvc.dll
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\PagedList.xml
+C:\Users\zdogr\Desktop\Tiyatro\TiyatroGosterisi\TiyatroGosterisi\bin\PagedList.Mvc.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\TiyatroGosterisi.dll.config
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\TiyatroGosterisi.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\TiyatroGosterisi.pdb
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csc.exe
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csc.exe.config
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csc.rsp
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csi.exe
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csi.exe.config
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\csi.rsp
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.Managed.Core.targets
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.AppContext.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Collections.Immutable.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Console.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.IO.Compression.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.IO.FileSystem.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.IO.Pipes.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Reflection.Metadata.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.AccessControl.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Claims.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Security.Principal.Windows.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.ValueTuple.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Xml.XmlDocument.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Xml.XPath.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\vbc.exe
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\vbc.exe.config
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\vbc.rsp
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\VBCSCompiler.exe
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\roslyn\VBCSCompiler.exe.config
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\Antlr3.Runtime.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\EntityFramework.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\EntityFramework.SqlServer.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\Microsoft.Web.Infrastructure.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\Newtonsoft.Json.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\PagedList.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\PagedList.Mvc.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Helpers.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Mvc.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Optimization.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Razor.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.Deployment.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.Razor.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\WebGrease.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\EntityFramework.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\EntityFramework.SqlServer.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\PagedList.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\PagedList.Mvc.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Helpers.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Mvc.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Optimization.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.Razor.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.Deployment.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\System.Web.WebPages.Razor.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\Newtonsoft.Json.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\Antlr3.Runtime.pdb
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.Helpers.resources.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.Mvc.resources.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.Optimization.resources.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.Razor.resources.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.WebPages.resources.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.WebPages.Deployment.resources.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\bin\tr\System.Web.WebPages.Razor.resources.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\obj\Debug\TiyatroGosterisi.csproj.AssemblyReference.cache
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\obj\Debug\TiyatroGosterisi.csproj.CoreCompileInputs.cache
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\obj\Debug\TiyatroGosterisi.csproj.CopyComplete
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\obj\Debug\TiyatroGosterisi.dll
+D:\DERS\3.Sınıf\3.2\Görsel Programlama Uygulamaları\17701043_ZekiyeDoğru\TiyatroGosterisi\TiyatroGosterisi\obj\Debug\TiyatroGosterisi.pdb

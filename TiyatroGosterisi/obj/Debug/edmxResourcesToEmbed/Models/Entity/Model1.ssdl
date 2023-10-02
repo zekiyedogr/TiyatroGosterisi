@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TiyatroGosterisiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Iletisim">
+    <Key>
+      <PropertyRef Name="IletisimId" />
+    </Key>
+    <Property Name="IletisimId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IletisimAdi" Type="varchar" MaxLength="20" />
+    <Property Name="IletisimEmail" Type="varchar" MaxLength="20" />
+    <Property Name="Mesaj" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Mesajlar">
+    <Key>
+      <PropertyRef Name="MesajId" />
+    </Key>
+    <Property Name="MesajId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Gonderen" Type="varchar" MaxLength="50" />
+    <Property Name="Alici" Type="varchar" MaxLength="50" />
+    <Property Name="Icerik" Type="varchar" MaxLength="500" />
+    <Property Name="Tarih" Type="smalldatetime" />
+  </EntityType>
+  <EntityType Name="Oyun">
+    <Key>
+      <PropertyRef Name="OyunId" />
+    </Key>
+    <Property Name="OyunId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OyunAdi" Type="varchar" MaxLength="50" />
+    <Property Name="YonetmenId" Type="int" />
+    <Property Name="YazarId" Type="int" />
+    <Property Name="TurId" Type="int" />
+    <Property Name="OyunFoto" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Oyuncu">
+    <Key>
+      <PropertyRef Name="OyuncuId" />
+    </Key>
+    <Property Name="OyuncuId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OyuncuAdi" Type="varchar" MaxLength="50" />
+    <Property Name="OyunId" Type="int" />
+    <Property Name="Rol" Type="varchar" MaxLength="50" />
+    <Property Name="OyuncuFoto" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Salon">
+    <Key>
+      <PropertyRef Name="SalonId" />
+    </Key>
+    <Property Name="SalonId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SalonAdi" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Seans">
+    <Key>
+      <PropertyRef Name="SeansId" />
+    </Key>
+    <Property Name="SeansId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SeansSaati" Type="time" Precision="7" />
+    <Property Name="OyunId" Type="int" />
+    <Property Name="SalonId" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Tur">
+    <Key>
+      <PropertyRef Name="TurId" />
+    </Key>
+    <Property Name="TurId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TurAdi" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Uye">
+    <Key>
+      <PropertyRef Name="UyeId" />
+    </Key>
+    <Property Name="UyeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UyeAdi" Type="varchar" MaxLength="50" />
+    <Property Name="UyeMail" Type="varchar" MaxLength="50" />
+    <Property Name="UyeParola" Type="varchar" MaxLength="10" />
+    <Property Name="KullaniciAdi" Type="varchar" MaxLength="10" />
+    <Property Name="DgmGunu" Type="smalldatetime" />
+    <Property Name="Cinsiyet" Type="varchar" MaxLength="5" />
+    <Property Name="UyeTel" Type="varchar" MaxLength="11" />
+  </EntityType>
+  <EntityType Name="Yazar">
+    <Key>
+      <PropertyRef Name="YazarId" />
+    </Key>
+    <Property Name="YazarId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="YazarAdi" Type="varchar" MaxLength="50" />
+    <Property Name="YazarOdulSay" Type="int" />
+    <Property Name="YazarEserSay" Type="int" />
+    <Property Name="YazarFoto" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Yonetmen">
+    <Key>
+      <PropertyRef Name="YonetmenId" />
+    </Key>
+    <Property Name="YonetmenId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="YonetmenAdi" Type="varchar" MaxLength="50" />
+    <Property Name="YonetmenOdulSay" Type="int" />
+    <Property Name="YonetmenEserSay" Type="int" />
+    <Property Name="YonetmenFoto" Type="varchar(max)" />
+  </EntityType>
+  <Association Name="FK_Oyun_Tur">
+    <End Role="Tur" Type="Self.Tur" Multiplicity="0..1" />
+    <End Role="Oyun" Type="Self.Oyun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tur">
+        <PropertyRef Name="TurId" />
+      </Principal>
+      <Dependent Role="Oyun">
+        <PropertyRef Name="TurId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Oyun_Yazar">
+    <End Role="Yazar" Type="Self.Yazar" Multiplicity="0..1" />
+    <End Role="Oyun" Type="Self.Oyun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Yazar">
+        <PropertyRef Name="YazarId" />
+      </Principal>
+      <Dependent Role="Oyun">
+        <PropertyRef Name="YazarId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Oyun_Yonetmen">
+    <End Role="Yonetmen" Type="Self.Yonetmen" Multiplicity="0..1" />
+    <End Role="Oyun" Type="Self.Oyun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Yonetmen">
+        <PropertyRef Name="YonetmenId" />
+      </Principal>
+      <Dependent Role="Oyun">
+        <PropertyRef Name="YonetmenId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Oyuncu_Oyun">
+    <End Role="Oyun" Type="Self.Oyun" Multiplicity="0..1" />
+    <End Role="Oyuncu" Type="Self.Oyuncu" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Oyun">
+        <PropertyRef Name="OyunId" />
+      </Principal>
+      <Dependent Role="Oyuncu">
+        <PropertyRef Name="OyunId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Seans_Oyun">
+    <End Role="Oyun" Type="Self.Oyun" Multiplicity="0..1" />
+    <End Role="Seans" Type="Self.Seans" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Oyun">
+        <PropertyRef Name="OyunId" />
+      </Principal>
+      <Dependent Role="Seans">
+        <PropertyRef Name="OyunId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Seans_Salon">
+    <End Role="Salon" Type="Self.Salon" Multiplicity="0..1" />
+    <End Role="Seans" Type="Self.Seans" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Salon">
+        <PropertyRef Name="SalonId" />
+      </Principal>
+      <Dependent Role="Seans">
+        <PropertyRef Name="SalonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TiyatroGosterisiModelStoreContainer">
+    <EntitySet Name="Iletisim" EntityType="Self.Iletisim" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Mesajlar" EntityType="Self.Mesajlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Oyun" EntityType="Self.Oyun" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Oyuncu" EntityType="Self.Oyuncu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Salon" EntityType="Self.Salon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Seans" EntityType="Self.Seans" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tur" EntityType="Self.Tur" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Uye" EntityType="Self.Uye" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yazar" EntityType="Self.Yazar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yonetmen" EntityType="Self.Yonetmen" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Oyun_Tur" Association="Self.FK_Oyun_Tur">
+      <End Role="Tur" EntitySet="Tur" />
+      <End Role="Oyun" EntitySet="Oyun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Oyun_Yazar" Association="Self.FK_Oyun_Yazar">
+      <End Role="Yazar" EntitySet="Yazar" />
+      <End Role="Oyun" EntitySet="Oyun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Oyun_Yonetmen" Association="Self.FK_Oyun_Yonetmen">
+      <End Role="Yonetmen" EntitySet="Yonetmen" />
+      <End Role="Oyun" EntitySet="Oyun" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Oyuncu_Oyun" Association="Self.FK_Oyuncu_Oyun">
+      <End Role="Oyun" EntitySet="Oyun" />
+      <End Role="Oyuncu" EntitySet="Oyuncu" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Seans_Oyun" Association="Self.FK_Seans_Oyun">
+      <End Role="Oyun" EntitySet="Oyun" />
+      <End Role="Seans" EntitySet="Seans" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Seans_Salon" Association="Self.FK_Seans_Salon">
+      <End Role="Salon" EntitySet="Salon" />
+      <End Role="Seans" EntitySet="Seans" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

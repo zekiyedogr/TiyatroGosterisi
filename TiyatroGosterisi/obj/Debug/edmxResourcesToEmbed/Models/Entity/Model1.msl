@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TiyatroGosterisiModelStoreContainer" CdmEntityContainer="TiyatroGosterisiEntities">
+    <EntitySetMapping Name="Oyun">
+      <EntityTypeMapping TypeName="TiyatroGosterisiModel.Oyun">
+        <MappingFragment StoreEntitySet="Oyun">
+          <ScalarProperty Name="OyunFoto" ColumnName="OyunFoto" />
+          <ScalarProperty Name="OyunId" ColumnName="OyunId" />
+          <ScalarProperty Name="OyunAdi" ColumnName="OyunAdi" />
+          <ScalarProperty Name="YonetmenId" ColumnName="YonetmenId" />
+          <ScalarProperty Name="YazarId" ColumnName="YazarId" />
+          <ScalarProperty Name="TurId" ColumnName="TurId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Oyuncu">
+      <EntityTypeMapping TypeName="TiyatroGosterisiModel.Oyuncu">
+        <MappingFragment StoreEntitySet="Oyuncu">
+          <ScalarProperty Name="OyuncuFoto" ColumnName="OyuncuFoto" />
+          <ScalarProperty Name="OyuncuId" ColumnName="OyuncuId" />
+          <ScalarProperty Name="OyuncuAdi" ColumnName="OyuncuAdi" />
+          <ScalarProperty Name="OyunId" ColumnName="OyunId" />
+          <ScalarProperty Name="Rol" ColumnName="Rol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Salon">
+      <EntityTypeMapping TypeName="TiyatroGosterisiModel.Salon">
+        <MappingFragment StoreEntitySet="Salon">
+          <ScalarProperty Name="SalonId" ColumnName="SalonId" />
+          <ScalarProperty Name="SalonAdi" ColumnName="SalonAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Seans">
+      <EntityTypeMapping TypeName="TiyatroGosterisiModel.Seans">
+        <MappingFragment StoreEntitySet="Seans">
+          <ScalarProperty Name="SeansId" ColumnName="SeansId" />
+          <ScalarProperty Name="SeansSaati" ColumnName="SeansSaati" />
+          <ScalarProperty Name="OyunId" ColumnName="OyunId" />
+          <ScalarProperty Name="SalonId" ColumnName="SalonId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="TiyatroGosterisiModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tur">
+      <EntityTypeMapping TypeName="TiyatroGosterisiModel.Tur">
+        <MappingFragment StoreEntitySet="Tur">
+          <ScalarProperty Name="TurId" ColumnName="TurId" />
+          <ScalarProperty Name="TurAdi" ColumnName="TurAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Uye">
+      <EntityTypeMapping TypeName="TiyatroGosterisiModel.Uye">
+        <MappingFragment StoreEntitySet="Uye">
+          <ScalarProperty Name="UyeTel" ColumnName="UyeTel" />
+          <ScalarProperty Name="Cinsiyet" ColumnName="Cinsiyet" />
+          <ScalarProperty Name="DgmGunu" ColumnName="DgmGunu" />
+          <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+          <ScalarProperty Name="UyeId" ColumnName="UyeId" />
+          <ScalarProperty Name="UyeAdi" ColumnName="UyeAdi" />
+          <ScalarProperty Name="UyeMail" ColumnName="UyeMail" />
+          <ScalarProperty Name="UyeParola" ColumnName="UyeParola" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yazar">
+      <EntityTypeMapping TypeName="TiyatroGosterisiModel.Yazar">
+        <MappingFragment StoreEntitySet="Yazar">
+          <ScalarProperty Name="YazarFoto" ColumnName="YazarFoto" />
+          <ScalarProperty Name="YazarOdulSay" ColumnName="YazarOdulSay" />
+          <ScalarProperty Name="YazarEserSay" ColumnName="YazarEserSay" />
+          <ScalarProperty Name="YazarId" ColumnName="YazarId" />
+          <ScalarProperty Name="YazarAdi" ColumnName="YazarAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yonetmen">
+      <EntityTypeMapping TypeName="TiyatroGosterisiModel.Yonetmen">
+        <MappingFragment StoreEntitySet="Yonetmen">
+          <ScalarProperty Name="YonetmenFoto" ColumnName="YonetmenFoto" />
+          <ScalarProperty Name="YonetmenEserSay" ColumnName="YonetmenEserSay" />
+          <ScalarProperty Name="YonetmenOdulSay" ColumnName="YonetmenOdulSay" />
+          <ScalarProperty Name="YonetmenId" ColumnName="YonetmenId" />
+          <ScalarProperty Name="YonetmenAdi" ColumnName="YonetmenAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mesajlar">
+      <EntityTypeMapping TypeName="TiyatroGosterisiModel.Mesajlar">
+        <MappingFragment StoreEntitySet="Mesajlar">
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="Icerik" ColumnName="Icerik" />
+          <ScalarProperty Name="Alici" ColumnName="Alici" />
+          <ScalarProperty Name="Gonderen" ColumnName="Gonderen" />
+          <ScalarProperty Name="MesajId" ColumnName="MesajId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Iletisim">
+      <EntityTypeMapping TypeName="TiyatroGosterisiModel.Iletisim">
+        <MappingFragment StoreEntitySet="Iletisim">
+          <ScalarProperty Name="Mesaj" ColumnName="Mesaj" />
+          <ScalarProperty Name="IletisimEmail" ColumnName="IletisimEmail" />
+          <ScalarProperty Name="IletisimAdi" ColumnName="IletisimAdi" />
+          <ScalarProperty Name="IletisimId" ColumnName="IletisimId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

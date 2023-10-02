@@ -1,0 +1,73 @@
+﻿@using TiyatroGosterisi.Models.Entity
+@model List<Mesajlar>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/LayoutPanel.cshtml";
+}
+
+<style>
+
+
+
+    .new-users {
+        width: 23.5%;
+        background: #1abc9c;
+        padding: 1.8em 03.5em;
+        margin-right: 2%;
+        margin-bottom: 50px;
+        cursor: pointer;
+        color: #fff;
+        text-align: center;
+        font-size: 2.6em;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 1.3em;
+        font-weight: 300;
+    }
+    
+    .icon {
+        float: left;
+        margin-right: 5%;
+    }
+
+    .icon-text {
+        float: left;
+    }
+
+    .clearfix:before, .clearfix:after {
+        display: table;
+        content: " ";
+    }
+</style>
+
+
+<div class="new-users">
+    <div class="icon">
+        <i class="user1"></i>
+    </div>
+    <div class="icon-text">
+        <h3>@ViewBag.dgr1</h3>
+        <p>Toplam Mesaj</p>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<h2 style="color:#2c3e50">Mesajlarım</h2>
+<br />
+
+<table class="table table-bordered">
+    <tr>
+        <th>Gönderen</th>
+        <th>Mesaj</th>
+        <th>İşlem</th>
+    </tr>
+
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Gonderen</td>
+            <td>@x.Icerik</td>
+            <td>@x.Tarih</td>
+        </tr>
+    }
+</table>
